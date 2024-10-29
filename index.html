@@ -1,145 +1,462 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
+<!DOCTYPE HTML>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Nordström</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#FEF5FF',
-                        secondary: '#10B981',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
-                }
-            }
-        }
-    </script>
-    <style>
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-
-        .animate-fadeIn {
-            animation: fadeIn 1s ease-in;
-        }
-
-        @keyframes slideInFromLeft {
-            0% {
-                transform: translateX(-100%);
-                opacity: 0;
-            }
-
-            100% {
-                transform: translateX(0);
-                opacity: 1;
-            }
-        }
-
-        .animate-slideIn {
-            animation: slideInFromLeft 0.5s ease-out;
-        }
-    </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>David Nordström</title>
+  <meta name="author" content="David Nordström">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
-<body class="text-white font-sans">
-    <nav class="bg-neutral-900 fixed w-full z-10 shadow-md border-b border-b-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <div class="flex items-center">
-                    <a href="#" class="text-xl font-bold text-white">davnords</a>
-                </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#home"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                        <a href="#papers"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Papers</a>
-                        <a href="#projects"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-                        <a href="#experience"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Experience</a>
+<body>
+
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    David Nordström
+                  </p>
+                  <p>I'm a PhD student at <a target="_blank" href="https://www.chalmers.se/en/">Chalmers University of
+                      Technology</a> in Geometric Deep Learning at <a target="_blank"
+                      href="https://fredkahl.github.io/">Fredrik Kahl</a>'s Computer Vision Team.
+                  </p>
+                  <p>
+                    At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>, <a
+                      href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a
+                      href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a
+                      href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a
+                      href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait
+                      Mode</a>, <a
+                      href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait
+                      Light</a>, and <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>. I
+                    did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a
+                      href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>. I've received the <a
+                      href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp;/&nbsp;
+                    <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                    <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/jonbarron/">Github</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="images/davnords.png"><img
+                      style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo"
+                      src="images/davnords.png" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Education</h2>
+                  <p>
+                    I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my
+                    research is about inferring the physical world (shape, motion, color, light, etc) from images,
+                    usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div>
+                    <img src='images/berkeley.png' width=100%>
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <span class="papertitle">Visiting Student
+                  </span>
+                  <br>
+                  <br>
+                  <span>UC Berkeley</span>
+                  <br>
+                  <span>2024-08-01 - 2024-01-01</span>
+                  <br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Research</h2>
+                  <p>
+                    I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my
+                    research is about inferring the physical world (shape, motion, color, light, etc) from images,
+                    usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+
+              <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ever_image'>
+                      <img src='images/ever_after.png' width=100%>
                     </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+                    <img src='images/ever_before.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function ever_start() {
+                      document.getElementById('ever_image').style.opacity = "1";
+                    }
 
-    <main>
-        <section id="home" class="h-screen flex items-center justify-center bg-neutral-900">
-            <div class="text-center animate-fadeIn">
-                <h1 class="text-5xl font-bold mb-4">David Nordström</h1>
-                <p class="text-xl mb-8">PhD student in Deep Learning</p>
-                <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="https://github.com/davnords" target="_blank"
-                        class="bg-primary hover:bg-primary/60 text-black py-2 px-4 rounded transition duration-300">
-                        <div class="flex flex-row space-x-2 items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 96" width="24" height="24">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
-                                    fill="#24292f" />
-                            </svg>
-                            <span>Github</span>
-                        </div>
-                    </a>
-                    
-                    <a href="mailto:david.nordstromm@gmail.com"
-                        class="bg-primary hover:bg-primary/60 text-black py-2 px-4 rounded transition duration-300">
-                        <div class="flex flex-row space-x-2 items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="52 42 88 66" width="24" height="24">
-                                <path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6" />
-                                <path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15" />
-                                <path fill="#fbbc04" d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2" />
-                                <path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92" />
-                                <path fill="#c5221f" d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2" />
-                            </svg>
-                            <span>Contact</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
+                    function ever_stop() {
+                      document.getElementById('ever_image').style.opacity = "0";
+                    }
+                    ever_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://ever.github.io/">
+                    <span class="papertitle">EVER: Exact Volumetric Ellipsoid Rendering for Real-time View Synthesis
+                    </span>
+                  </a>
+                  <br>
+                  <a href="https://half-potato.gitlab.io/">Alexander Mai</a>,
+                  <a href="https://phogzone.com/">Peter Hedman</a>,
+                  <a href="https://grgkopanas.github.io/">George Kopanas</a>,
+                  <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+                  <a href="https://scholar.google.com/citations?user=ozNFrecAAAAJ&hl=en">David Futschik</a>,
+                  <a href="https://xharlie.github.io/">Qiangeng Xu</a>,
+                  <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=253">Falko Kuester</a>,
+                  <strong>Jonathan T. Barron</strong>,
+                  <a href="https://www.zhangyinda.com/">Yinda Zhang</a>
+                  <br>
+                  <em>arXiv</em>, 2024
+                  <br>
+                  <a href="https://half-potato.gitlab.io/posts/ever/">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2410.01804">arXiv</a>
+                  <p></p>
+                  <p>
+                    Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than
+                    splatting Gaussians, and still runs in real-time.
+                  </p>
+                </td>
+              </tr>
 
-        <section id="papers" class="py-20 bg-gray-900">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold mb-8 animate-slideIn">Papers</h2>
-                <!-- Add your papers content here -->
-            </div>
-        </section>
+              <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()" bgcolor="#ffffd0">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='cat3d_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/cat3d.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/cat3d.jpg' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function cat3d_start() {
+                      document.getElementById('cat3d_image').style.opacity = "1";
+                    }
 
-        <section id="projects" class="py-20 bg-gray-800">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold mb-8 animate-slideIn">Projects</h2>
-                <!-- Add your projects content here -->
-            </div>
-        </section>
+                    function cat3d_stop() {
+                      document.getElementById('cat3d_image').style.opacity = "0";
+                    }
+                    cat3d_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://cat3d.github.io/">
+                    <span class="papertitle">CAT3D: Create Anything in 3D with Multi-View Diffusion Models
+                    </span>
+                  </a>
+                  <br>
+                  <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>*,
+                  <a href="https://holynski.org/">Aleksander Holynski</a>*,
+                  <a href="https://henzler.github.io/">Philipp Henzler</a>,
+                  <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
+                  <a href="http://ricardomartinbrualla.com/">Ricardo Martin Brualla</a>,
+                  <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
+                  <strong>Jonathan T. Barron</strong>,
+                  <a href="https://poolio.github.io/">Ben Poole</a>*
 
-        <section id="experience" class="py-20 bg-gray-900">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold mb-8 animate-slideIn">Job Experience</h2>
-                <!-- Add your job experience content here -->
-            </div>
-        </section>
-    </main>
+                  <br>
+                  <em>NeurIPS</em>, 2024 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+                  <br>
+                  <a href="https://cat3d.github.io/">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2405.10314">arXiv</a>
+                  <p></p>
+                  <p>
+                    A single model built around diffusion and NeRF that does text-to-3D, image-to-3D, and few-view
+                    reconstruction, trains in 1 minute, and renders at 60FPS in a browser.
+                  </p>
+                </td>
+              </tr>
 
-    <footer class="bg-gray-800 py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p>&copy; 2024 davnords. All rights reserved.</p>
-        </div>
-    </footer>
+
+              <tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='nerfcasting_image'><video width=100% muted autoplay loop>
+                        <source src="images/nerfcasting.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/nerfcasting.jpg' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function nerfcasting_start() {
+                      document.getElementById('nerfcasting_image').style.opacity = "1";
+                    }
+
+                    function nerfcasting_stop() {
+                      document.getElementById('nerfcasting_image').style.opacity = "0";
+                    }
+                    nerfcasting_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://nerf-casting.github.io/">
+                    <span class="papertitle">NeRF-Casting: Improved View-Dependent Appearance with Consistent
+                      Reflections</span>
+                  </a>
+                  <br>
+
+                  <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+                  <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+                  <a href="https://phogzone.com/">Peter Hedman</a>,
+                  <a href="https://benattal.github.io/">Benjamin Attal</a>, <br>
+                  <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+                  <a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
+                  <strong>Jonathan T. Barron</strong>
+                  <br>
+                  <em>SIGGRAPH Asia</em>, 2024
+                  <br>
+                  <a href="https://nerf-casting.github.io/">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2405.14871">arXiv</a>
+                  <p></p>
+                  <p>
+                    Carefully casting reflection rays lets us synthesize photorealistic specularities in real-world
+                    scenes.
+                  </p>
+                </td>
+              </tr>
+
+
+              <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='flash_cache_image'><video width=100% muted autoplay loop>
+                        <source src="images/flash_cache.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/flash_cache.jpg' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function flash_cache_start() {
+                      document.getElementById('flash_cache_image').style.opacity = "1";
+                    }
+
+                    function flash_cache_stop() {
+                      document.getElementById('flash_cache_image').style.opacity = "0";
+                    }
+                    flash_cache_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://benattal.github.io/flash-cache/">
+                    <span class="papertitle">Flash Cache: Reducing Bias in Radiance Cache Based Inverse Rendering</span>
+                  </a>
+                  <br>
+                  <a href="https://benattal.github.io/">Benjamin Attal</a>,
+                  <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+                  <a href="https://bmild.github.io/">Ben Mildenhall</a>,
+                  <a href="https://phogzone.com/">Peter Hedman</a>, <br>
+                  <strong>Jonathan T. Barron</strong>,
+                  <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>,
+                  <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>
+                  <br>
+                  <em>ECCV</em>, 2024 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+                  <br>
+                  <a href="https://benattal.github.io/flash-cache/">project page</a>
+                  /
+                  <a href="TODO">arXiv</a>
+                  <p></p>
+                  <p>
+                    A more physically-accurate inverse rendering system based on radiance caching for recovering
+                    geometry, materials, and lighting from RGB images of an object or scene.
+                  </p>
+                </td>
+              </tr>
+
+
+
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Projects</h2>
+                  <p>
+                    I have made some fund coding projects :D
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+
+              <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='real_image'>
+                      <img src='images/realintel_after.png' width=100%>
+                    </div>
+                    <img src='images/realintel_before.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function ever_start() {
+                      document.getElementById('real_image').style.opacity = "1";
+                    }
+
+                    function ever_stop() {
+                      document.getElementById('real_image').style.opacity = "0";
+                    }
+                    ever_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a target="_blank" href="https://www.realintel.se/">
+                    <span class="papertitle">Real Intel
+                    </span>
+                  </a>
+                  <br>
+                  <img src="https://seeklogo.com/images/N/nextjs-logo-963D40B71E-seeklogo.com.png" class="logo-image"
+                    alt="Next.js Logo" />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                    class="logo-image" alt="Python Logo" />
+                  <br>
+                  <p></p>
+                  <p>
+                    Enterprise level real estate underwriting platform written with a Python backend (calculation
+                    engine) and a React frontend with a postgres database. <a target="_blank"
+                      href="https://fastighetskalkylen.vercel.app/">Simplified demo.</a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Miscellanea</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellpadding="20">
+            <tbody>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+                <td width="75%" valign="center">
+                  <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
+                  <br>
+                  <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
+                  <br>
+                  <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
+                  <br>
+                  <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
+                  <br>
+                  <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+                  <br>
+                  <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/cs188.jpg" alt="cs188">
+                </td>
+                <td width="75%" valign="center">
+                  <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor,
+                    CS188 Spring 2011</a>
+                  <br>
+                  <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor,
+                    CS188 Fall 2010</a>
+                  <br>
+                  <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd
+                    Edition</a>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td align="center" style="padding:20px;width:25%;vertical-align:middle">
+                  <h2>Basically <br> Blog Posts</h2>
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
+                  <br>
+                  <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain
+                    Functions</a>
+                  <br>
+                  <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
+                  <br>
+                  <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How
+                    Can Academics Adapt?</a>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    This website is based on the <a href="https://github.com/jonbarron/jonbarron_website">source
+                      code</a> of <a href="https://jonbarron.info">Jon Barron</a>'s website .
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+  </table>
 </body>
 
 </html>
